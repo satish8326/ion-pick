@@ -976,7 +976,11 @@ class IonicPickComponent {
         // Ionic Searchbar doesn't clear bind with ngModel value.
         // Do it ourselves.
         this._searchText = '';
-        this.filterItems();
+        let groups = [];
+        groups = this._groups;
+        this._filteredGroups = groups;
+        this._hasFilteredItems = !this._areGroupsEmpty(groups);
+        this._emitOnSearchSuccessOrFail(this._hasFilteredItems);
     }
     _filterItems() {
         this._setHasSearchText();
