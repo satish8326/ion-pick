@@ -1,0 +1,64 @@
+{
+  "name": "ionic-pick",
+  "version": "1.1.1",
+  "license": "MIT",
+  "title": "Ionic Pick",
+  "description": "Ionic Select but better",
+  "author": {
+    "name": "Kyle Trammell",
+    "url": "https://github.com/ceotrammell"
+  },
+  "homepage": "https://github.com/ceotrammell/ionic-pick",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ceotrammell/ionic-pick.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ceotrammell/ionic-pick/issues"
+  },
+  "keywords": [
+    "ionic",
+    "ionic 2",
+    "ionic 3",
+    "ionic 4",
+    "ionic 6",
+    "ionic 7",
+    "ion-select",
+    "search",
+    "searchable",
+    "searchbar",
+    "select",
+    "selectable",
+    "pick",
+    "ionic pick"
+  ],
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "peerDependencies": {
+    "@ionic/angular": ">=7.0.0",
+    "@angular/common": ">=15.0.0",
+    "@ionic/core": ">=7.0.0",
+    "rxjs": ">=7.5.0"
+  },
+  "sideEffects": false,
+  "module": "fesm2015/ionic-pick.mjs",
+  "es2020": "fesm2020/ionic-pick.mjs",
+  "esm2020": "esm2020/ionic-pick.mjs",
+  "fesm2020": "fesm2020/ionic-pick.mjs",
+  "fesm2015": "fesm2015/ionic-pick.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/ionic-pick.mjs",
+      "es2020": "./fesm2020/ionic-pick.mjs",
+      "es2015": "./fesm2015/ionic-pick.mjs",
+      "node": "./fesm2015/ionic-pick.mjs",
+      "default": "./fesm2020/ionic-pick.mjs"
+    }
+  }
+}
